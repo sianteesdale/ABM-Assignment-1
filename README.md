@@ -18,6 +18,10 @@ ABMs are generally iterative models. They run by allowing the agents to do their
 ## My Model
 The ABM simulates the randomised movement of sheep eating grass in the field, with the grass being the environment.
 
+<p align="center">
+  <img width="800" height="800" src="Figure_1-3.png">
+</p>
+
 Within the ABM, the following variables can be altered as required:
 
 - num_of_iterations (the number of times the animation loops)
