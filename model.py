@@ -17,9 +17,9 @@ import csv #Used to read in csv files
 # With [] being empty lists that will be filled 
 agents = []
 environment = []
-num_of_agents = 10 #define how many agents will be shown
-num_of_iterations = 1000 #define how many iterations (loops)
-neighbourhood = 20 #define distance for agents to interact together
+num_of_agents = 10      #define how many agents will be shown
+num_of_iterations = 10  #define how many iterations (loops)
+neighbourhood = 20      #define distance for agents to interact together
 
 
 # READ IN THE ENVIRONMENT
