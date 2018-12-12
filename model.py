@@ -23,7 +23,7 @@ neighbourhood = 20      #define distance for agents to interact together
 
 
 # READ IN THE ENVIRONMENT
-#Create a new text file to input the environment
+#Open the textfile with environment data in
 f = open('in.txt', newline='')
 #Read in the csv with environment data
 reader = csv.reader(f, quoting = csv.QUOTE_NONNUMERIC)
@@ -31,7 +31,7 @@ for row in reader:
     rowlist = []                    #create an empty list for rowlist to enter information into
     for value in row:
         rowlist.append(value)       #add the value to a rowlist
-    environment.append(rowlist)     #add the environment to the rowlist
+    environment.append(rowlist)     #append the rowlists to the environment variable
 #And close the text file
 f.close()
 
